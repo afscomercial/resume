@@ -1,4 +1,4 @@
-# my resume
+## my resume
 
 Andres Salguero 
 FULL-STACK JS REACT NODE WEB-MOBILE DAPP DEVELOPER
