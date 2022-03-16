@@ -52,10 +52,11 @@ const resume = {
 			endDate: 'Present',
 			employer: 'Intertec International',
 			city: 'Remote',
-            technologies:'Node, React, ExpressJs, Git, Jest',
+            technologies:'Node, React, ExpressJS, Git, Jest',
             description: 'Develop storefront website customization for the Automotive industry.',
 			achievements: [
-				'Server Side Rendering with express and React.'
+				'Server Side Rendering with express and React.',
+                'Optimization the performance and improving the quality of the website following the guidelines of tools such as lighthouse.'
 			]
 		},
 		{
@@ -64,12 +65,12 @@ const resume = {
 			endDate: 'Sep 2021',
 			employer: 'BairesDev',
 			city: 'Remote',
-            technologies:'Node, Angular, AWS, Ionic GraphQl, Git, Jest',
+            technologies:'Node, Angular, AWS, Ionic, GraphQl, Git, Jest',
             description:'Full Stack developing for the healthcare industry, back-end services, front-end web and mobile application.',
 			achievements: [
 				'Developed AWS lambda API with Node and GraphQL.',
-				'Use DynamoDB as database for data persistence.',
-                'Angular web client and Angular Ionic Cordova mobile client.'
+				'Use DynamoDB as database for data persistence, Angular with Ionic as web and mobile client.',
+                'Improved the usability implementing better UX standards .'
 			]
 		},
 		{
@@ -78,12 +79,12 @@ const resume = {
 			endDate: 'Dec 2020',
 			employer: 'Perficient',
 			city: 'Medellín/Colombia',
-            technologies:'Node, NestJS, React, NextJs, Angular, Git, GraphQL, MongoDB, AWS, Jest',
+            technologies:'Node, NestJS, React, NextJS, Angular, Git, GraphQL, MongoDB, AWS, Jest',
             description: 'Full Stack developer React, Node, Angular for mobile and web applications',
 			achievements: [
 				'Developed REST service APIs with Node according to business requirements.',
 				'Consume GraphQL API with Apollo from React web application.',
-                'Structured the Continuous Integration using Jenkins, GitHub and GitLab as CI tools for the pipelines, with Git as the version system'
+                'Implemented some Devops practices creating CI pipelines using Jenkins, GitHub and GitLab with Git as the version system.'
 			]
 		},
 		{
@@ -96,7 +97,7 @@ const resume = {
             description: 'Full Stack Angular, Java developer focusing on improving and optimizing legacy web applications',
 			achievements: [
 				'Migrated Java front-end legacy applications to new technologies as Angular.',
-				'Updated versioning system of the project from svn to git.'
+				'Improved workflows regarding control versioning system, migrating the project from svn to git.'
 			]
 		},
 		{
