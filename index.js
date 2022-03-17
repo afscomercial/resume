@@ -16,6 +16,18 @@ const resume = {
 			degree: 'Associate\'s degree',
 			graduationDate: '2009',
 			description: 'Computer Software Technology/Technician'
+		},
+		{
+			school: 'Libre University',
+			degree: 'Postgraduate Degree',
+			graduationDate: '2008',
+			description: 'Internetworking'
+		},
+		{
+			school: 'San Buenaventura University',
+			degree: 'Bachelor\'s degree',
+			graduationDate: '2005',
+			description: 'Agricultural Engineering'
 		}
 	],
 	links: [
@@ -40,6 +52,7 @@ const resume = {
 		'Firebase',
 		'Solidity',
         'Web3JS',
+		'GraphQl',
 		'MongoDB',
         'Git'
 	],
@@ -80,7 +93,7 @@ const resume = {
 			employer: 'Perficient',
 			city: 'Medellín/Colombia',
             technologies:'Node, NestJS, React, NextJS, Angular, Git, GraphQL, MongoDB, AWS, Jest',
-            description: 'Full Stack developer React, Node, Angular for mobile and web applications',
+            description: 'Full Stack developer React, Node, Angular for mobile and web applications.',
 			achievements: [
 				'Developed REST service APIs with Node according to business requirements.',
 				'Consume GraphQL API with Apollo from React web application.',
@@ -94,7 +107,7 @@ const resume = {
 			employer: 'Tata Consultancy Services',
 			city: 'Medellín/Colombia',
             technologies:'Angular, Java, Junit, SQL, Git, Azure Devops',
-            description: 'Full Stack Angular, Java developer focusing on improving and optimizing legacy web applications',
+            description: 'Full Stack Angular, Java developer focusing on improving and optimizing legacy web applications.',
 			achievements: [
 				'Migrated Java front-end legacy applications to new technologies as Angular.',
 				'Improved workflows regarding control versioning system, migrating the project from svn to git.'
@@ -112,6 +125,16 @@ const resume = {
 				'Optimized the location service in the mobile application.',
 				'Improved mobile application response times by fixing some communication bugs with the back.'
 			]
+		},
+		{
+			jobTitle: 'Web Developer',
+			startDate: 'Feb 2015',
+			endDate: 'Jan 2017',
+			employer: 'QUIRA SOLUTIONS',
+            technologies:'JavaScript, HTML5, CSS, Java',
+            description:'Web projects using technologies html5, CSS, JavaScript, Java. MVC web applications with a monolithic architecture.',
+			city: 'Cali/Colombia',
+			achievements: []
 		}
 	],
 	photo:
