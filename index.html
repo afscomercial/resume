@@ -15,6 +15,7 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
 		/>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 		<link rel="stylesheet" href="index.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
 		<!-- Add Web Animations Polyfill :) -->
@@ -204,8 +205,12 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<ul class="ms-2">
-									<li class="pb-2" v-for="skill in skills">{{ skill }}</li>
+								<ul class="ms-2 skill-bar">
+									<li v-for="skill in skills">
+										<div :style="{width: skill.percent}">
+											{{ skill.name}} - {{skill.percent}}
+										</div>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -281,8 +286,10 @@
 								<p class="fst-italic fw-bold">
 									{{ employment.employer }}, {{ employment.city }}
 								</p>
-                                <p class="fw-lighter fs-4">Main Technologies: {{ employment.technologies }}</p>
-                                <p>  {{ employment.description }}</p>
+								<p class="fw-lighter fs-4">
+									Main Technologies: {{ employment.technologies }}
+								</p>
+								<p>{{ employment.description }}</p>
 								<p class="mb-0" v-for="achievement in employment.achievements">
 									• {{ achievement }}
 								</p>
@@ -311,6 +318,6 @@
 			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
 			crossorigin="anonymous"
 		></script>
-        <script src="index.js"></script>
+		<script src="index.js"></script>
 	</body>
 </html>

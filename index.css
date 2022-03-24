@@ -123,7 +123,7 @@ a p {
   margin-bottom: 1.8rem; }
 
 .personal-details .title {
-  padding-top: 4rem; }
+  padding-top: 1rem; }
 
 .bullet {
   position: relative; }
@@ -181,6 +181,18 @@ span {
   width: 40px;
   height: 40px;
   margin: 4px auto; }
+
+.skill-bar li{
+  font-size: 1.8rem;
+  line-height: 1.4;
+  height: 4rem;
+}
+
+.skill-bar div{
+  padding-top: 2px;
+  padding-left: 5px;
+  border: 1px solid lightgray;
+}
 
 @media print {
   @page {

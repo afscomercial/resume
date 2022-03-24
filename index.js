@@ -41,22 +41,22 @@ const resume = {
 		}
 	],
 	skills: [
-        'React/NextJS',
-        'JavaScript',
-        'Angular',
-        'NodeJS/NestJS',
-        'TypeScript',
-        'Ionic',
-        'React Native',
-        'AWS',
-		'Firebase',
-		'Solidity',
-        'Web3JS',
-		'GraphQl',
-		'MongoDB',
-        'Git'
+        {name:'React/NextJS', percent:'80%'},
+        {name:'JavaScript', percent:'80%'},
+        {name:'Angular', percent:'80%'},
+        {name:'NodeJS/NestJS', percent:'70%'},
+        {name:'TypeScript', percent:'70%'},
+        {name:'Ionic', percent:'70%'},
+        {name:'React Native', percent:'60%'},
+        {name:'AWS', percent:'50%'},
+		{name:'Firebase', percent:'60%'},
+		{name:'Solidity', percent:'60%'},
+        {name:'Web3JS', percent:'60%'},
+		{name:'GraphQl', percent:'70%'},
+		{name:'MongoDB', percent:'50%'},
+        {name:'Git', percent:'70%'}
 	],
-	languages: ['English', 'Spanish'],
+	languages: ['English - 80%', 'Spanish - native'],
 	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications.`,
 	employmentHistory: [
 		{
