@@ -56,7 +56,7 @@ const resume = {
 		{name:'MongoDB', percent:'50%'},
         {name:'Git', percent:'70%'}
 	],
-	languages: ['English - 80%', 'Spanish - native'],
+	languages: ['English - C1', 'Spanish - native'],
 	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications.`,
 	employmentHistory: [
 		{
