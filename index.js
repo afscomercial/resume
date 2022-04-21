@@ -117,7 +117,7 @@ const resume = {
 			jobTitle: 'IT Support Specialist',
 			startDate: 'Feb 2018',
 			endDate: 'Agu 2018',
-			employer: 'DANE',
+			employer: 'DANE - Mision Empresarial',
             technologies:'Java, Android',
             description:'Support for Java Android mobile application development to carry out population census',
 			city: 'Cali/Colombia',
