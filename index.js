@@ -60,7 +60,7 @@ const resume = {
 	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications.`,
 	employmentHistory: [
 		{
-			jobTitle: 'Frontend Developer',
+			jobTitle: 'User Interface Engineer',
 			startDate: 'Sep 2021',
 			endDate: 'Present',
 			employer: 'Intertec International',
