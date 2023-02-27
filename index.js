@@ -41,14 +41,14 @@ const resume = {
 		}
 	],
 	skills: [
-        {name:'React/NextJS', percent:'80%'},
-        {name:'JavaScript', percent:'80%'},
+        {name:'React/NextJS', percent:'90%'},
+        {name:'JavaScript', percent:'90%'},
         {name:'Angular', percent:'80%'},
         {name:'NodeJS/NestJS', percent:'70%'},
         {name:'TypeScript', percent:'70%'},
         {name:'Ionic', percent:'70%'},
         {name:'React Native', percent:'60%'},
-        {name:'AWS', percent:'50%'},
+        {name:'AWS', percent:'60%'},
 		{name:'Firebase', percent:'60%'},
 		{name:'Solidity', percent:'60%'},
         {name:'Web3JS', percent:'60%'},
@@ -65,7 +65,7 @@ const resume = {
 			endDate: 'Present',
 			employer: 'Intertec International',
 			city: 'Remote',
-            technologies:'Node, React, ExpressJS, Git, Jest',
+            technologies:'Node, React, NextJS, Solidity, AWS, Git, Jest',
             description: 'Develop storefront website customization for the Automotive industry.',
 			achievements: [
 				'Server Side Rendering with express and React.',
@@ -78,7 +78,7 @@ const resume = {
 			endDate: 'Sep 2021',
 			employer: 'BairesDev',
 			city: 'Remote',
-            technologies:'Node, Angular, AWS, Ionic, GraphQl, Git, Jest',
+            technologies:'Node, Angular, AWS, Ionic, GraphQl, AWS, Git, Jest',
             description:'Full Stack developing for the healthcare industry, back-end services, front-end web and mobile application.',
 			achievements: [
 				'Developed AWS lambda API with Node and GraphQL.',
@@ -106,7 +106,7 @@ const resume = {
 			endDate: 'Agu 2019',
 			employer: 'Tata Consultancy Services',
 			city: 'Medellín/Colombia',
-            technologies:'Angular, Java, Junit, SQL, Git, Azure Devops',
+            technologies:'Angular, Node, Java, Junit, SQL, Git, Azure Devops',
             description: 'Full Stack Angular, Java developer focusing on improving and optimizing legacy web applications.',
 			achievements: [
 				'Migrated Java front-end legacy applications to new technologies as Angular.',
