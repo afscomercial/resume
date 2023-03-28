@@ -70,7 +70,6 @@ const resume = {
             description: 'Develop storefront website customization for the Automotive industry and blockchain DeFi app.',
 			achievements: [
 				'Server Side Rendering with express and React.',
-                'Optimization the performance and improving the quality of the website following the guidelines of tools such as lighthouse.',
 				'Built microservices to optimize the customer shopping experience base on AWS serverless using Terraform',
 				'Developed a decentralized application using Solidity and Web3JS.'
 			]
