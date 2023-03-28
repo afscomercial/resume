@@ -6,9 +6,9 @@ const resume = {
 	lastName: 'Salguero',
 	jobTitle: 'FULL-STACK JS REACT NODE WEB-MOBILE DAPP DEVELOPER',
 	city: 'Medellin',
-	postalCode: '050020',
+	postalCode: '',
 	country: 'Colombia',
-	phone: '+573017023590',
+	phone: '+573017023590/+18135566097',
 	email: 'andresfelipesalguero@gmail.com',
 	education: [
 		{
@@ -54,10 +54,11 @@ const resume = {
         {name:'Web3JS', percent:'60%'},
 		{name:'GraphQl', percent:'70%'},
 		{name:'MongoDB', percent:'50%'},
-        {name:'Git', percent:'70%'}
+        {name:'Git', percent:'70%'},
+		{name:'Python', percent:'30%'}
 	],
 	languages: ['English - C1', 'Spanish - native'],
-	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications.`,
+	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications, AI enthusiastic`,
 	employmentHistory: [
 		{
 			jobTitle: 'User Interface Engineer',
@@ -65,11 +66,13 @@ const resume = {
 			endDate: 'Present',
 			employer: 'Intertec International',
 			city: 'Remote',
-            technologies:'Node, React, NextJS, Solidity, AWS, Git, Jest',
-            description: 'Develop storefront website customization for the Automotive industry.',
+            technologies:'Node, React, NextJS, Solidity, AWS, Git, Jest, AWS Serverless',
+            description: 'Develop storefront website customization for the Automotive industry and blockchain DeFi app.',
 			achievements: [
 				'Server Side Rendering with express and React.',
-                'Optimization the performance and improving the quality of the website following the guidelines of tools such as lighthouse.'
+                'Optimization the performance and improving the quality of the website following the guidelines of tools such as lighthouse.',
+				'Built microservices to optimize the customer shopping experience base on AWS serverless using Terraform',
+				'Developed a decentralized application using Solidity and Web3JS.'
 			]
 		},
 		{
