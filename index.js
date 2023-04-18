@@ -64,7 +64,7 @@ const resume = {
 			jobTitle: 'User Interface Engineer',
 			startDate: 'Sep 2021',
 			endDate: 'Present',
-			employer: 'Intertec International',
+			employer: 'FPT Software',
 			city: 'Remote',
             technologies:'Node, React, NextJS, Solidity, AWS, Git, Jest, AWS Serverless',
             description: 'Develop storefront website customization for the Automotive industry and blockchain DeFi app.',
