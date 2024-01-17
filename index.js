@@ -1,13 +1,10 @@
-/**
- * Resume/CV template created with Bootstrap 5 by @vmoratog and @jdnichollsc
- */
 const resume = {
 	firstName: 'Andres',
 	lastName: 'Salguero',
 	jobTitle: 'FULL-STACK JS REACT NODE WEB-MOBILE DAPP DEVELOPER',
-	city: 'Medellin',
+	city: 'Toronto',
 	postalCode: '',
-	country: 'Colombia',
+	country: 'Canada',
 	phone: '+573017023590/+18135566097',
 	email: 'andresfelipesalguero@gmail.com',
 	education: [
@@ -47,6 +44,7 @@ const resume = {
         {name:'NodeJS/NestJS', percent:'70%'},
         {name:'TypeScript', percent:'70%'},
         {name:'Ionic', percent:'70%'},
+		{name:'Shopify', percent:'70%'},
         {name:'React Native', percent:'60%'},
         {name:'AWS', percent:'60%'},
 		{name:'Firebase', percent:'60%'},
@@ -55,7 +53,7 @@ const resume = {
 		{name:'GraphQl', percent:'70%'},
 		{name:'MongoDB', percent:'50%'},
         {name:'Git', percent:'70%'},
-		{name:'Python', percent:'30%'}
+		{name:'Python', percent:'50%'}
 	],
 	languages: ['English - C1', 'Spanish - native'],
 	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications, AI enthusiastic`,
@@ -66,12 +64,13 @@ const resume = {
 			endDate: 'Present',
 			employer: 'FPT Software',
 			city: 'Remote',
-            technologies:'Node, React, NextJS, Solidity, AWS, Git, Jest, AWS Serverless',
+            technologies:'Node, React, NextJS, Solidity, AWS, Git, Jest, AWS Serverless, Shopify',
             description: 'Develop storefront website customization for the Automotive industry and blockchain DeFi app.',
 			achievements: [
 				'Server Side Rendering with express and React.',
 				'Built microservices to optimize the customer shopping experience base on AWS serverless using Terraform',
-				'Developed a decentralized application using Solidity and Web3JS.'
+				'Developed a decentralized application using Solidity and Web3JS.',
+				'Developed new features for the Shopify storefront using React, Remix and liquid.'
 			]
 		},
 		{
