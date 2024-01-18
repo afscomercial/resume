@@ -133,7 +133,7 @@ const resume = {
 			endDate: 'Jan 2017',
 			employer: 'QUIRA SOLUTIONS',
             technologies:'JavaScript, HTML5, CSS, Java',
-            description:'Web projects using technologies html5, CSS, JavaScript, Java. MVC web applications with a monolithic architecture.',
+            description:'Web projects using technologies html5, CSS, JavaScript, Java.',
 			city: 'Cali/Colombia',
 			achievements: []
 		}
