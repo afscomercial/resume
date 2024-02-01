@@ -5,7 +5,7 @@ const resume = {
 	city: 'Toronto',
 	postalCode: '',
 	country: 'Canada',
-	phone: '+573017023590/+18135566097',
+	phone: '+1(437)603-4634',
 	email: 'andresfelipesalguero@gmail.com',
 	education: [
 		{
