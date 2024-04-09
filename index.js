@@ -1,13 +1,19 @@
 const resume = {
 	firstName: 'Andres',
 	lastName: 'Salguero',
-	jobTitle: 'FULL-STACK JS REACT NODE WEB-MOBILE DAPP DEVELOPER',
+	jobTitle: 'FULL-STACK JS REACT NODE PYTHON WEB-MOBILE DAPP DEVELOPER',
 	city: 'Toronto',
-	postalCode: '',
+	postalCode: 'M2K3C7',
 	country: 'Canada',
-	phone: '+1(437)603-4634',
-	email: 'andresfelipesalguero@gmail.com',
+	phone: '+1(437)439-5414',
+	email: 'andres.felipe.salguero@gmail.com',
 	education: [
+		{
+			school: 'Lambton College',
+			degree: 'Certification',
+			graduationDate: 'Studying',
+			description: 'Artificial Intelligence & Machine Learning'
+		},
 		{
 			school: 'CECEP',
 			degree: 'Associate\'s degree',
@@ -39,25 +45,33 @@ const resume = {
 	],
 	skills: [
         {name:'React/NextJS', percent:'90%'},
-        {name:'JavaScript', percent:'90%'},
+        {name:'JavaScript/TypeScript', percent:'90%'},
         {name:'Angular', percent:'80%'},
-        {name:'NodeJS/NestJS', percent:'70%'},
-        {name:'TypeScript', percent:'70%'},
-        {name:'Ionic', percent:'70%'},
-		{name:'Shopify', percent:'70%'},
-        {name:'React Native', percent:'60%'},
-        {name:'AWS', percent:'60%'},
-		{name:'Firebase', percent:'60%'},
+        {name:'NodeJS/NestJS', percent:'90%'},
+		{name:'Shopify', percent:'90%'},
+        {name:'AWS', percent:'70%'},
 		{name:'Solidity', percent:'60%'},
-        {name:'Web3JS', percent:'60%'},
 		{name:'GraphQl', percent:'70%'},
-		{name:'MongoDB', percent:'50%'},
-        {name:'Git', percent:'70%'},
+		{name:'Terraform', percent:'50%'},
+        {name:'Git', percent:'80%'},
 		{name:'Python', percent:'50%'}
 	],
 	languages: ['English - C1', 'Spanish - native'],
 	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications, AI enthusiastic`,
 	employmentHistory: [
+		{
+			jobTitle: 'FullStack Developer',
+			startDate: 'November 2023',
+			endDate: 'Present',
+			employer: 'BlockTec',
+			city: 'Remote',
+            technologies:'React, Typescript, NextJS, AWS, Git, python, graphQl, terraform',
+            description: 'Develop web application to analyze government documents with artificial intelligence',
+			achievements: [
+				'Server Side Rendering with nextJS with AWS services.',
+				'Implemented python script interacting with AWS services and Elasticsearch.',
+			]
+		},
 		{
 			jobTitle: 'User Interface Engineer',
 			startDate: 'Sep 2021',
@@ -68,7 +82,6 @@ const resume = {
             description: 'Develop storefront website customization for the Automotive industry and blockchain DeFi app.',
 			achievements: [
 				'Server Side Rendering with express and React.',
-				'Built microservices to optimize the customer shopping experience base on AWS serverless using Terraform',
 				'Developed a decentralized application using Solidity and Web3JS.',
 				'Developed new features for the Shopify storefront using React, Remix and liquid.'
 			]
@@ -84,7 +97,6 @@ const resume = {
 			achievements: [
 				'Developed AWS lambda API with Node and GraphQL.',
 				'Use DynamoDB as database for data persistence, Angular with Ionic as web and mobile client.',
-                'Improved the usability implementing better UX standards .'
 			]
 		},
 		{
@@ -97,7 +109,6 @@ const resume = {
             description: 'Full Stack developer React, Node, Angular for mobile and web applications.',
 			achievements: [
 				'Developed REST service APIs with Node according to business requirements.',
-				'Consume GraphQL API with Apollo from React web application.',
                 'Implemented some Devops practices creating CI pipelines using Jenkins, GitHub and GitLab with Git as the version system.'
 			]
 		},
@@ -126,16 +137,6 @@ const resume = {
 				'Optimized the location service in the mobile application.',
 				'Improved mobile application response times by fixing some communication bugs with the back.'
 			]
-		},
-		{
-			jobTitle: 'Web Developer',
-			startDate: 'Feb 2015',
-			endDate: 'Jan 2017',
-			employer: 'QUIRA SOLUTIONS',
-            technologies:'JavaScript, HTML5, CSS, Java',
-            description:'Web projects using technologies html5, CSS, JavaScript, Java.',
-			city: 'Cali/Colombia',
-			achievements: []
 		}
 	],
 	photo:
