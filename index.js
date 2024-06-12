@@ -9,25 +9,25 @@ const resume = {
 	email: 'andres.felipe.salguero@gmail.com',
 	education: [
 		{
-			school: 'Lambton College',
+			school: 'Lambton College - Canada',
 			degree: 'Certification',
 			graduationDate: 'Studying',
 			description: 'Artificial Intelligence & Machine Learning'
 		},
 		{
-			school: 'CECEP',
+			school: 'CECEP - Colombia',
 			degree: 'Associate\'s degree',
 			graduationDate: '2009',
 			description: 'Computer Software Technology/Technician'
 		},
 		{
-			school: 'Libre University',
+			school: 'Libre University - Colombia',
 			degree: 'Postgraduate Degree',
 			graduationDate: '2008',
 			description: 'Internetworking'
 		},
 		{
-			school: 'San Buenaventura University',
+			school: 'San Buenaventura University - Colombia',
 			degree: 'Bachelor\'s degree',
 			graduationDate: '2005',
 			description: 'Agricultural Engineering'
