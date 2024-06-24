@@ -57,16 +57,16 @@ const resume = {
 		{name:'Python', percent:'60%', iconClass:'icon-python'},
 	],
 	languages: ['English - C1', 'Spanish - native'],
-	professionalSummary: `Coding is my passion, I have programming skills with emphasis on web, mobile and decentralized applications, AI enthusiastic`,
+	professionalSummary: `Coding is my passion, I have programming skills to contribute effectively to every stage of the development process, from conceptualization and design to deployment and maintenance, with emphasis on web and mobile applications, AI enthusiastic.`,
 	employmentHistory: [
 		{
 			jobTitle: 'FullStack Developer',
 			startDate: 'November 2023',
 			endDate: 'Present',
 			employer: 'BlockTec',
-			city: 'Remote',
+			city: 'Phoenix, United States, Remote',
             technologies:'React, Typescript, NextJS, AWS, Git, python, graphQl, terraform',
-            description: 'Develop web application to analyze government documents with artificial intelligence',
+            description: 'Developed web application to analyze government documents with artificial intelligence.',
 			achievements: [
 				'Server Side Rendering with nextJS with AWS services.',
 				'Implemented python script interacting with AWS services and Elasticsearch.',
@@ -77,13 +77,13 @@ const resume = {
 			startDate: 'Sep 2021',
 			endDate: 'Present',
 			employer: 'FPT Software',
-			city: 'Remote',
+			city: 'Medellín, Colombia, Remote',
             technologies:'Node, React, NextJS, Solidity, AWS, Git, Jest, AWS Serverless, Shopify',
-            description: 'Develop storefront website customization for the Automotive industry and blockchain DeFi app.',
+            description: 'Developed storefront user-centric web application for the Automotive and cosmetic industry, blockchain DeFi apps.',
 			achievements: [
-				'Server Side Rendering with express and React.',
-				'Developed a decentralized application using Solidity and Web3JS.',
-				'Developed new features for the Shopify storefront using React, Remix and liquid.'
+				'Optimized performance and SEO with Server Side Rendering techniques.',
+				'Developed a financial decentralized application using Solidity and Web3JS.',
+				'Increased customer satisfaction with better Shopify apps using React, Remix and liquid.'
 			]
 		},
 		{
@@ -91,12 +91,12 @@ const resume = {
 			startDate: 'Dec 2020',
 			endDate: 'Sep 2021',
 			employer: 'BairesDev',
-			city: 'Remote',
+			city: 'San Francisco, United States, Remote',
             technologies:'Node, Angular, AWS, Ionic, GraphQl, AWS, Git, Jest',
-            description:'Full Stack developing for the healthcare industry, back-end services, front-end web and mobile application.',
+            description:'Full Stack developing for the healthcare industry, web and mobile application.',
 			achievements: [
 				'Developed AWS lambda API with Node and GraphQL.',
-				'Use DynamoDB as database for data persistence, Angular with Ionic as web and mobile client.',
+				'Used DynamoDB as database for data persistence, Angular with Ionic as web and mobile client.',
 			]
 		},
 		{
@@ -104,7 +104,7 @@ const resume = {
 			startDate: 'Agu 2019',
 			endDate: 'Dec 2020',
 			employer: 'Perficient',
-			city: 'Medellín/Colombia',
+			city: 'Medellín, Colombia',
             technologies:'Node, NestJS, React, NextJS, Angular, Git, GraphQL, MongoDB, AWS, Jest',
             description: 'Full Stack developer React, Node, Angular for mobile and web applications.',
 			achievements: [
@@ -117,7 +117,7 @@ const resume = {
 			startDate: 'Agu 2018',
 			endDate: 'Agu 2019',
 			employer: 'Tata Consultancy Services',
-			city: 'Medellín/Colombia',
+			city: 'Medellín, Colombia',
             technologies:'Angular, Node, Java, Junit, SQL, Git, Azure Devops',
             description: 'Full Stack Angular, Java developer focusing on improving and optimizing legacy web applications.',
 			achievements: [
@@ -132,7 +132,7 @@ const resume = {
 			employer: 'DANE - Mision Empresarial',
             technologies:'Java, Android',
             description:'Support for Java Android mobile application development to carry out population census',
-			city: 'Cali/Colombia',
+			city: 'Cali, Colombia',
 			achievements: [
 				'Optimized the location service in the mobile application.',
 				'Improved mobile application response times by fixing some communication bugs with the back.'
