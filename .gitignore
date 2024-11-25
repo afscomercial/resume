@@ -1,4 +1,92 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Build output
+/dist/
+
+# Vite cache
+.vite/
+
+# Local environment settings
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Parcel cache (if any)
+.cache/
+
+# Sass/SCSS map files
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+
+# Coverage files
+coverage/
+
+# Miscellaneous
+*.log
+*.gz
+
+# macOS system files
+._*
+.Spotlight-V100
+.Trashes
+
+# Other build artifacts
+*.lock
+*.lockb
+
+# Ignoring Yarn berry files (if using Yarn)
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+yarn.lock
+
+# Ignore temporary React testing library files
+*.test-results.json
+
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore Prettier cache
+.prettiercache
+
+# Ignore package lock files (optional, if you're not committing them)
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore Vercel/Netlify deploy directories (if deploying via those platforms)
+.vercel/
+.netlify/
+
