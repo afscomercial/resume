@@ -71,7 +71,7 @@ coverage/
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-yarn.lock
+
 
 # Ignore temporary React testing library files
 *.test-results.json
@@ -83,7 +83,6 @@ yarn.lock
 .prettiercache
 
 # Ignore package lock files (optional, if you're not committing them)
-package-lock.json
 pnpm-lock.yaml
 
 # Ignore Vercel/Netlify deploy directories (if deploying via those platforms)
