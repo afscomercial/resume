@@ -13,9 +13,8 @@ const EmploymentHistory = ({ jobs }) => {
             {job.employer}, {job.city}
           </p>
           <p className="job-technologies">
-            <strong>Main Technologies:</strong> {job.technologies}
+            <strong>Key Technologies:</strong> {job.technologies}
           </p>
-          <p className="job-description">{job.description}</p>
           <ul className="job-achievements">
             {job.achievements.map((achievement, idx) => (
               <li key={idx}>{achievement}</li>

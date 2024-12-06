@@ -49,29 +49,32 @@ export const resumeData = {
     { name: "NodeJS/NestJS", percent: "90%" },
     { name: "Shopify", percent: "90%" },
     { name: "AWS", percent: "70%" },
-    { name: "Azure", percent: "60%" },
+    { name: "Azure", percent: "70%" },
     { name: "Angular", percent: "70%" },
     { name: "GraphQl", percent: "70%" },
     { name: "Terraform", percent: "60%" },
     { name: "Git", percent: "80%" },
     { name: "Python", percent: "60%" },
+    { name: "MongoDB/DynamoDB/CosmoDB", percent: "70%" },
+    { name: "SQL", percent: "70%" },
   ],
   languages: ["English - C1", "Spanish - native"],
-  professionalSummary: `Passionate and results-driven Full-Stack Developer with over eight years of experience delivering high-quality, scalable, and user-centric web and mobile applications. Proficient in modern JavaScript frameworks, cloud services, and backend development. Adept at managing complex projects from concept to deployment, with a focus on performance, accessibility, and maintainability. AI enthusiast with hands-on experience integrating machine learning solutions into real-world applications.`,
+  professionalSummary: `Passionate and results-driven Full-Stack Developer dedicated to delivering scalable, reliable, and secure web solutions. Proficient in modern JavaScript frameworks, cloud platforms, and backend technologies, with a proven track record of leading projects from concept to deployment. Passionate about embracing emerging technologies to create innovative and user-centric applications. Strong mentor and team player with a focus on maintaining clean, maintainable, and efficient codebases. AI enthusiast with hands-on experience integrating machine learning solutions.`,
   employmentHistory: [
     {
       jobTitle: "FullStack Developer",
       startDate: "November 2023",
       endDate: "Present",
-      employer: "BlockTec",
+      employer: "Opportunity Hound",
       city: "Phoenix, United States, Remote",
       technologies:
-        "React, Typescript, NextJS, AWS, Git, python, graphQl, terraform",
+        "React, TypeScript, NextJS, AWS, GraphQL, Python, Terraform",
       description:
         "Developed web application to analyze government documents with artificial intelligence.",
       achievements: [
-        "Server Side Rendering with nextJS with AWS services.",
-        "Implemented python script interacting with AWS services and Elasticsearch.",
+        "Architected and developed a server-side rendered web application leveraging AWS services to analyze government documents with AI",
+        "Automated interactions with AWS services and Elasticsearch using Python scripting",
+        "Improved system scalability and reliability with robust Terraform scripts",
       ],
     },
     {
@@ -81,13 +84,12 @@ export const resumeData = {
       employer: "FPT Software",
       city: "Medellín, Colombia, Remote",
       technologies:
-        "Node, React, NextJS, Solidity, AWS, Git, Jest, AWS Serverless, Shopify",
-      description:
-        "Developed storefront user-centric web application for the Automotive and cosmetic industry, blockchain DeFi apps.",
+        "Node, React, NextJS, AWS Serverless, Shopify, Solidity, Azure",
       achievements: [
-        "Optimized performance and SEO with Server Side Rendering techniques.",
-        "Developed a financial decentralized application using Solidity and Web3JS.",
-        "Increased customer satisfaction with better Shopify apps using React, Remix and liquid.",
+        "Delivered storefront solutions for automotive and cosmetic industries, including DeFi blockchain apps",
+        "Enhanced SEO and app performance using Server Side Rendering techniques",
+        "Developed financial decentralized applications leveraging Solidity and Web3JS",
+        "Created custom Shopify apps using React, Remix, and Liquid, improving client satisfaction",
       ],
     },
     {
@@ -96,12 +98,11 @@ export const resumeData = {
       endDate: "Sep 2021",
       employer: "BairesDev",
       city: "San Francisco, United States, Remote",
-      technologies: "Node, Angular, AWS, Ionic, GraphQl, AWS, Git, Jest",
-      description:
-        "Full Stack developing for the healthcare industry, web and mobile application.",
+      technologies: "Node, Angular, AWS, GraphQL, Ionic",
       achievements: [
-        "Developed AWS lambda API with Node and GraphQL.",
-        "Used DynamoDB as database for data persistence, Angular with Ionic as web and mobile client.",
+        "Designed AWS Lambda APIs with Node.js and GraphQL for the healthcare sector",
+        "Built web and mobile clients with Angular and Ionic, improving usability and accessibility",
+        "Implemented database solutions with DynamoDB to handle high data loads efficiently",
       ],
     },
     {
@@ -111,12 +112,11 @@ export const resumeData = {
       employer: "Perficient",
       city: "Medellín, Colombia",
       technologies:
-        "Node, NestJS, React, NextJS, Angular, Git, GraphQL, MongoDB, AWS, Jest",
-      description:
-        "Full Stack developer React, Node, Angular for mobile and web applications.",
+        "Node, NestJS, React, Angular, GraphQL, AWS, MongoDB",
       achievements: [
-        "Developed REST service APIs with Node according to business requirements.",
-        "Implemented some Devops practices creating CI pipelines using Jenkins, GitHub and GitLab with Git as the version system.",
+        "Developed RESTful APIs in Node.js and NestJS, adhering to best practices for scalability and performance",
+        "Improved deployment pipelines by integrating Jenkins with GitHub/GitLab CI/CD workflows",
+        "Built GraphQL APIs with Apollo, optimizing data fetching for React apps"
       ],
     },
     {
@@ -125,12 +125,11 @@ export const resumeData = {
       endDate: "Agu 2019",
       employer: "Tata Consultancy Services",
       city: "Medellín, Colombia",
-      technologies: "Angular, Node, Java, Junit, SQL, Git, Azure Devops",
-      description:
-        "Full Stack Angular, Java developer focusing on improving and optimizing legacy web applications.",
+      technologies: "Angular, Node, Java, SQL, Azure",
       achievements: [
-        "Migrated Java front-end legacy applications to new technologies as Angular.",
-        "Improved workflows regarding control versioning system, migrating the project from svn to git.",
+        "Modernized legacy Java front-end applications by migrating them to Angular",
+        "Streamlined version control workflows by transitioning from SVN to Git",
+        "Collaborated with cross-functional teams to improve project delivery efficiency",
       ],
     },
     {
@@ -139,10 +138,9 @@ export const resumeData = {
       endDate: "Agu 2018",
       employer: "DANE - Mision Empresarial",
       technologies: "Java, Android",
-      description:
-        "Support for Java Android mobile application development to carry out population census",
       city: "Cali, Colombia",
       achievements: [
+        "Supported  Java Android mobile application development to carry out population census",
         "Optimized the location service in the mobile application.",
         "Improved mobile application response times by fixing some communication bugs with the back.",
       ],
