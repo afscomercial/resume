@@ -1,76 +1,33 @@
-name: Deploy React App to Pages
+name: Build and Deploy React Vite App
 
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+    branches:
+      - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the code
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      # Set up Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: '18'
           cache: 'npm'
 
-      # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      # Build the Vite project
-      - name: Build
+      - name: Build React app
         run: npm run build
 
-      # Debug the build output
-      - name: Debug Build Output
-        run: ls -R ./dist
-
-      # Upload artifact with correct name for GitHub Pages
-      - name: Upload artifact for deployment
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: dist/
-          retention-days: 1
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-      # Configure GitHub Pages 
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v4
-
-      # Download the uploaded artifact (MUST match the artifact name in `upload-artifact`)
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: .
-
-      # Debug the downloaded files before deploying
-      - name: Debug Downloaded Files
-        run: ls -R
-
-      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: main # Deploy to the main branch
+          folder: dist # Deploy the contents of the dist folder
+          target-folder: dist # Deploy to the dist folder within main
+          commit-message: "Deploy to GitHub Pages"
