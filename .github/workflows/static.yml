@@ -6,11 +6,11 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated checkout version
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -24,10 +24,19 @@ jobs:
       - name: Build React app
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: main # Deploy to the main branch
-          folder: dist # Deploy the contents of the dist folder
-          target-folder: dist # Deploy to the dist folder within main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./dist # Upload the dist folder
+
+  deploy:
+    environment: github-pages
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write # Required to deploy to Pages
+      id-token: write # Needed to interact with GitHub's OIDC token endpoint.
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
