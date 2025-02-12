@@ -1,4 +1,4 @@
-name: Deploy Vite React App to Pages
+name: Deploy React App to Pages
 
 on:
   push:
@@ -44,9 +44,11 @@ jobs:
 
       # Upload the `dist` directory for deployment
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: ./dist
+          retention-days: 1 
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
