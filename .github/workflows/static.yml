@@ -1,56 +1,43 @@
-name: Deploy React App to Pages
+name: Deploy Vite React App
 
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+    branches:
+      - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      # Checkout the code
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Set up Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
+          cache: npm
 
-      # Install dependencies
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
 
-      # Build the Vite project
-      - name: Build
+      - name: Build Project
         run: npm run build
 
-      # Debug the build output
-      - name: Debug Build Output
-        run: ls -R ./dist
+      - name: Check Build Output
+        run: ls -l dist  
 
-      # Upload the `dist` directory for deployment
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
-          path: ./dist
-          retention-days: 1 
+          path: dist 
 
-      # Deploy to GitHub Pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
