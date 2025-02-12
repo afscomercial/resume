@@ -43,12 +43,11 @@ jobs:
         run: ls -R ./dist
 
       # Upload the `dist` directory for deployment
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4  # Explicitly using v4
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
           path: dist
-          retention-days: 1 
+    
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
