@@ -56,12 +56,9 @@ jobs:
       pages: write
       id-token: write
     steps:
-      # Download the uploaded artifact
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: .
+      # Configure GitHub Pages 
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
 
       # Download the uploaded artifact (MUST match the artifact name in `upload-artifact`)
       - name: Download artifact
