@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main# Deploy to the main branch
+          branch: main # Deploy to the main branch
           folder: dist # Deploy the contents of the dist folder
           target-folder: dist # Deploy to the dist folder within main
           token: ${{ secrets.GITHUB_TOKEN }}
