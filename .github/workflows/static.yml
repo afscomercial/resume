@@ -63,7 +63,14 @@ jobs:
           name: github-pages
           path: .
 
-      # Debug downloaded files
+      # Download the uploaded artifact (MUST match the artifact name in `upload-artifact`)
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: .
+
+      # Debug the downloaded files before deploying
       - name: Debug Downloaded Files
         run: ls -R
 
