@@ -44,34 +44,46 @@ export const resumeData = {
     },
   ],
   skills: [
-    { name: "React/NextJS", percent: "90%" },
+    { name: "React/NextJS/Remix", percent: "90%" },
     { name: "JavaScript/TypeScript", percent: "90%" },
     { name: "NodeJS/NestJS", percent: "90%" },
     { name: "Shopify", percent: "90%" },
-    { name: "AWS", percent: "80%" },
+    { name: "AWS", percent: "90%" },
     { name: "Azure", percent: "80%" },
     { name: "Angular", percent: "70%" },
-    { name: "GraphQl", percent: "70%" },
+    { name: "GraphQl", percent: "80%" },
     { name: "Terraform", percent: "80%" },
     { name: "Git", percent: "90%" },
     { name: "Python", percent: "90%" },
     { name: "MongoDB/DynamoDB/CosmoDB", percent: "80%" },
-    { name: "SQL", percent: "70%" },
+    { name: "SQL", percent: "80%" },
     { name: "Docker", percent: "80%" },
   ],
   languages: ["English - C1", "Spanish - native"],
   professionalSummary: `Passionate and results-driven Full-Stack Developer dedicated to delivering scalable, reliable, and secure web solutions. Proficient in modern JavaScript frameworks, cloud platforms, and backend technologies, with a proven track record of leading projects from concept to deployment. Passionate about embracing emerging technologies to create innovative and user-centric applications. Strong mentor and team player with a focus on maintaining clean, maintainable, and efficient codebases. AI enthusiast with hands-on experience integrating machine learning solutions.`,
   employmentHistory: [
     {
+      jobTitle: "Full Stack Engineer",
+      startDate: "October 2025",
+      endDate: "Present",
+      employer: "House Numbers",
+      city: "Reno, United States, Remote",
+      technologies:
+        "JavaScript, Remix, Node.js, MongoDB, AWS, Microservices, LLMs",
+      achievements: [
+        "Developed and maintained server-side rendered front-end applications using Remix and JavaScript for internal and customer-facing mortgage processing tools.",
+        "Supported a Node.js microservices architecture on AWS with MongoDB, enabling scalable and reliable mortgage loan processing workflows.",
+        "Integrated LLM-based automation to assist document analysis, data extraction, and workflow optimization within mortgage loan processing systems.",
+      ],
+    },
+    {
       jobTitle: "FullStack Developer",
       startDate: "November 2023",
-      endDate: "Present",
+      endDate: "November2025",
       employer: "Opportunity Hound",
       city: "Phoenix, United States, Remote",
       technologies:
         "React, TypeScript, NextJS, AWS, GraphQL, Python, Terraform",
-      description:
-        "Developed web application to analyze government documents with artificial intelligence.",
       achievements: [
         "Architected and developed a server-side rendered web application leveraging AWS services to analyze government documents with AI",
         "Automated interactions with AWS services and Elasticsearch using Python scripting",
@@ -81,7 +93,7 @@ export const resumeData = {
     {
       jobTitle: "User Interface Engineer",
       startDate: "Sep 2021",
-      endDate: "Present",
+      endDate: "October 2025",
       employer: "FPT Software",
       city: "Medellín, Colombia, Remote",
       technologies:
