@@ -11,7 +11,7 @@ export const resumeData = {
     {
       school: "Lambton College - Canada",
       degree: "Certification",
-      graduationDate: "Studying",
+      graduationDate: "2025",
       description: "Artificial Intelligence & Machine Learning",
     },
     {
