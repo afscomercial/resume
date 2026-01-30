@@ -2,10 +2,10 @@ export const resumeData = {
   firstName: "Andres",
   lastName: "Salguero",
   jobTitle: "Full-Stack Developer | Javascript | Node.js | Python | Machine Learning",
-  city: "Toronto",
-  postalCode: "M2K3C7",
-  country: "Canada",
-  phone: "+1(437)439-5414",
+  city: "",
+  postalCode: "",
+  country: "",
+  phone: "",
   email: "andres.felipe.salguero@gmail.com",
   education: [
     {
