@@ -42,6 +42,12 @@ const App = () => {
         margin-bottom: 10px;
       }
 
+      .publications-section {
+        break-before: page;
+        page-break-before: always;
+        padding-top: 10px;
+      }
+
       .section p {
         font-size: 9px;
       }
@@ -101,6 +107,16 @@ const App = () => {
         margin-bottom: 2px;
       }
 
+      .publication {
+        font-size: 9px;
+        margin-bottom: 2px;
+      }
+
+      .publication h4,
+      .publication p {
+        margin: 0;
+      }
+
       .languages{
           margin-top: 8px;
           font-size: 9px;
@@ -144,6 +160,7 @@ const App = () => {
       filename: "resume.pdf",
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: { scale: 2 },
+      pagebreak: { mode: ["css", "legacy"], before: ".publications-section" },
       jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
     };
 

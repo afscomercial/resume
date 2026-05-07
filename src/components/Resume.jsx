@@ -3,7 +3,7 @@
 import Header from "./Header";
 import Section from "./Section";
 import EmploymentHistory from "./EmploymentHistory";
-import Skills from "./Skills"; 
+import Skills from "./Skills";
 
 const Resume = ({ data }) => {
   return (
@@ -12,7 +12,7 @@ const Resume = ({ data }) => {
       <Section title="Summary">
         <p>{data.professionalSummary}</p>
       </Section>
-      <Skills skills={data.skills} /> 
+      <Skills skills={data.skills} />
       <EmploymentHistory jobs={data.employmentHistory} />
       <Section title="Education">
         {data.education.map((edu, index) => (
@@ -24,6 +24,30 @@ const Resume = ({ data }) => {
           </div>
         ))}
       </Section>
+      {data.publications?.length > 0 && (
+        <Section title="Publications" className="publications-section">
+          {data.publications.map((publication, index) => (
+            <div key={index} className="publication">
+              <h4>{publication.title}</h4>
+              <p>
+                {publication.date} - {publication.publication}
+                {publication.doi && " DOI: "}
+                {publication.doi && publication.link ? (
+                  <a
+                    href={publication.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {publication.doi}
+                  </a>
+                ) : (
+                  publication.doi
+                )}
+              </p>
+            </div>
+          ))}
+        </Section>
+      )}
       {/* <Section title="Languages">
         <ul className="languages">
           {data.languages.map((language, index) => (
@@ -36,4 +60,3 @@ const Resume = ({ data }) => {
 };
 
 export default Resume;
-
