@@ -79,8 +79,8 @@ export const resumeData = {
     },
     {
       jobTitle: "Full-Stack Software Engineer",
-      startDate: "Jun 2025",
-      endDate: "Present",
+      startDate: "May 2025",
+      endDate: "May 2026",
       employer: "Maplewell Energy",
       city: "Boulder, CO, USA, Remote",
       technologies:
