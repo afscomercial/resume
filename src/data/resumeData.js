@@ -2,7 +2,7 @@ export const resumeData = {
   firstName: "Andres",
   lastName: "Salguero",
   jobTitle:
-    "AI-Augmented Engineer | Machine Learning | Cloud Architect | Python | Node | JavaScript",
+    "AI Engineer | Machine Learning | Cloud Architect | Python | Node | JavaScript",
   city: "",
   postalCode: "",
   country: "",
